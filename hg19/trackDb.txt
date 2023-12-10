@@ -16,8 +16,8 @@ track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0.816622:10
-    viewLimitsMax 0.816622:124.127
+    viewLimits 1.5:10
+    viewLimitsMax 1.5:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
     showSubtrackColorOnUi on
@@ -71,8 +71,8 @@ track VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0.816622:10
-    viewLimitsMax 0.816622:124.127
+    viewLimits 1.5:10
+    viewLimitsMax 1.5:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
     showSubtrackColorOnUi on
