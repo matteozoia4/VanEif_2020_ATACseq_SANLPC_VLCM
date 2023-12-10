@@ -1,0 +1,108 @@
+track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PEAKSINTERSECT
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353b2b4bf5dbaad6ad/display?to_ext=bigbed
+itemRgb on
+shortLabel VanEif_2020_SANLPC_GSE146044
+longLabel SANLPCn1_SANLPCn2_SANLPCn3_GSM4363358_GSM4363359_GSM4363360_PEAKSINTERSECT      
+type bigBed 3 . 
+configurable on
+visibility dense
+color 146,46,190
+  
+track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
+    container multiWig
+    shortLabel VanEif_2020_SANLPC_GSE146044
+    longLabel SANLPCn1_SANLPCn2_SANLPCn3_GSM4363358_GSM4363359_GSM4363360_PROFILESOVERLAY
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track SANLPCn1_GSM4363358_PROFILE
+        parent VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135130b64e06bbb7b4a/display?to_ext=bigwig
+        shortLabel SANLPCn1_GSM4363358_PROFILE
+        longLabel  
+        type bigWig
+        color 113,1,147
+
+        track SANLPCn2_GSM4363359_PROFILE
+        parent VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a32f8197c6cf8e70/display?to_ext=bigwig
+        shortLabel SANLPCn2_GSM4363359_PROFILE
+        longLabel   
+        type bigWig
+        color 163,44,196
+
+	track SANLPCn3_GSM4363360_PROFILE
+        parent VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bd3c204982b5812e/display?to_ext=bigwig
+        shortLabel SANLPCn3_GSM4363360_PROFILE
+        longLabel   
+        type bigWig
+        color 164,94,229
+        
+
+
+track VanEif_2020_ATACseq_ventricle_like_cells_PEAKSINTERSECT
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ad7fc3aa1f2d2a33/display?to_ext=bigbed
+itemRgb on
+shortLabel VanEif_2020_VLCM_GSE146044
+longLabel VLCMn1_VLCMn2_VLCMn3_GSM4363361_GSM4363362_GSM4363363_PEAKSINTERSECT      
+type bigBed 3 . 
+configurable on
+visibility dense
+color 213,21,19
+  
+track VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
+    container multiWig
+    shortLabel VanEif_2020_VLCM_GSE146044
+    longLabel VLCMn1_VLCMn2_VLCMn3_GSM4363361_GSM4363362_GSM4363363_PROFILESOVERLAY
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track VLCMn1_GSM4363361_PROFILE
+        parent VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355bec8dc6e9fe6b30/display?to_ext=bigwig
+        shortLabel VLCMn1_GSM4363361_PROFILE
+        longLabel  
+        type bigWig
+        color 165,15,21
+
+        track VLCMn2_GSM4363362_PROFILE
+        parent VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135620109ee04b0cbb5/display?to_ext=bigwig
+        shortLabel VLCMn2_GSM4363362_PROFILE
+        longLabel   
+        type bigWig
+        color 221,41,36
+
+	track VLCMn3_GSM4363363_PROFILE
+        parent VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
+        bigDataUrl 
+        shortLabel VLCMn3_GSM4363363_PROFILE
+        longLabel   
+        type bigWig
+        color 255,8,0
+        

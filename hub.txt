@@ -1,0 +1,5 @@
+hub OSTERWALDER LAB  
+shortLabel ATAC VanEif 2020 SANLPC VLCM
+longLabel VanEif_2020_Regulatory_landscape_of_human_stem_cell_derived_sinoatrial_node_like_pacemaker_cells_and_ventricle_like_cells 
+genomesFile genomes.txt 
+email matteo.zoia@dbmr.unibe.ch
