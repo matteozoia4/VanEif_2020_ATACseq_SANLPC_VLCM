@@ -1,8 +1,8 @@
-track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PEAKSINTERSECT
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353b2b4bf5dbaad6ad/display?to_ext=bigbed
+track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PEAKSMERGED
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355b767ad9266acee8/display?to_ext=bigbed
 itemRgb on
 shortLabel VanEif_2020_SANLPC_GSE146044
-longLabel SANLPCn1_SANLPCn2_SANLPCn3_GSM4363358_GSM4363359_GSM4363360_PEAKSINTERSECT      
+longLabel SANLPCn1_SANLPCn2_SANLPCn3_GSM4363358_GSM4363359_GSM4363360_PEAKSMERGED      
 type bigBed 3 . 
 configurable on
 visibility dense
@@ -53,11 +53,11 @@ track VanEif_2020_ATACseq_sinoatrial_node_like_pacemaker_cells_PROFILESOVERLAY
         
 
 
-track VanEif_2020_ATACseq_ventricle_like_cells_PEAKSINTERSECT
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ad7fc3aa1f2d2a33/display?to_ext=bigbed
+track VanEif_2020_ATACseq_ventricle_like_cells_PEAKSMERGED
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a0988dfb5b245704/display?to_ext=bigbed
 itemRgb on
 shortLabel VanEif_2020_VLCM_GSE146044
-longLabel VLCMn1_VLCMn2_VLCMn3_GSM4363361_GSM4363362_GSM4363363_PEAKSINTERSECT      
+longLabel VLCMn1_VLCMn2_VLCMn3_GSM4363361_GSM4363362_GSM4363363_PEAKSMERGED     
 type bigBed 3 . 
 configurable on
 visibility dense
