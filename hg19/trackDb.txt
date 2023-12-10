@@ -100,7 +100,7 @@ track VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
 
 	track VLCMn3_GSM4363363_PROFILE
         parent VanEif_2020_ATACseq_ventricle_like_cells_PROFILESOVERLAY
-        bigDataUrl 
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e036458390f379ea/display?to_ext=bigwig
         shortLabel VLCMn3_GSM4363363_PROFILE
         longLabel   
         type bigWig
